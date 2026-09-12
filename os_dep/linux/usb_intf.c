@@ -146,6 +146,7 @@ static void rtw_dev_shutdown(struct device *dev)
 static struct usb_device_id rtw_usb_id_tbl[] = {
 #ifdef CONFIG_RTL8852B
 	/*=== Realtek demoboard ===*/
+	{USB_DEVICE(0x35bc, 0x0108), .driver_info = RTL8852B},
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_REALTEK, 0xB832, 0xff, 0xff, 0xff), .driver_info = RTL8852B},
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_REALTEK, 0xB83A, 0xff, 0xff, 0xff), .driver_info = RTL8852B},
 	{USB_DEVICE_AND_INTERFACE_INFO(USB_VENDER_ID_REALTEK, 0xB852, 0xff, 0xff, 0xff), .driver_info = RTL8852B},
