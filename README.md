@@ -1,6 +1,6 @@
 Here is the simplified and direct `README.md` tailored specifically for the **TP-Link Archer TX20U Nano**:
 
-```markdown
+
 # Realtek RTL8852BU Driver (Optimized for TP-Link Archer TX20U Nano)
 
 Linux driver for the **TP-Link Archer TX20U Nano** USB Wi-Fi Adapter (and other RTL8852BU/RTL8832BU chipsets).
@@ -14,10 +14,7 @@ Make sure your system has the required build tools and kernel headers installed:
 ```bash
 sudo apt update
 sudo apt install make gcc linux-headers-$(uname -r) build-essential git
-
 ```
-
----
 
 ## 2. Register USB ID (TP-Link TX20U Nano)
 
